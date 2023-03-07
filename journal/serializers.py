@@ -6,4 +6,4 @@ class EntrySerializer(serializers.HyperlinkedModelSerializer):
         #Which model will get serialized by the class
         model= Entry
         #which fields should be included in the output
-        fields = ['date','title', 'body', 'timestamp']
+        fields = ['id','date','title', 'body', 'timestamp']
